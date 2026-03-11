@@ -19,9 +19,9 @@
 
 ## 📸 Ekran Görüntüleri
 
-| Yükleme | Tanıtım | Giriş | Ana Ekran |
-|:-------:|:-------:|:-----:|:---------:|
-| ![Yükleme](screenshots/screenshot_1.png) | ![Tanıtım](screenshots/screenshot_2.png) | ![Giriş](screenshots/screenshot_3.png) | ![Ana Ekran](screenshots/screenshot_4.png) |
+| Test Sonucu | Tanıtım | Giriş | Ana Ekran |
+|:-----------:|:-------:|:-----:|:---------:|
+| ![Test Sonucu](screenshots/screenshot_13.png) | ![Tanıtım](screenshots/screenshot_2.png) | ![Giriş](screenshots/screenshot_3.png) | ![Ana Ekran](screenshots/screenshot_4.png) |
 
 | Ana Ekran (Karanlık) | Kart — İngilizce | Kart — Türkçe | Kart — Karanlık |
 |:--------------------:|:----------------:|:-------------:|:---------------:|
