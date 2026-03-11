@@ -32,19 +32,7 @@
 ## 📸 Ekran Görüntüleri
 
 <p align="center">
-  <img src="screenshots/screenshot_3.png"  width="18%" alt="Giriş" />
-  <img src="screenshots/screenshot_2.png"  width="18%" alt="Tanıtım" />
-  <img src="screenshots/screenshot_4.png"  width="18%" alt="Ana Ekran" />
-  <img src="screenshots/screenshot_6.png"  width="18%" alt="Kart — İngilizce" />
-  <img src="screenshots/screenshot_7.png"  width="18%" alt="Kart — Türkçe" />
-</p>
-
-<p align="center">
-  <img src="screenshots/screenshot_9.png"  width="18%" alt="Çoktan Seçmeli" />
-  <img src="screenshots/screenshot_10.png" width="18%" alt="Yazarak Test" />
-  <img src="screenshots/screenshot_13.png" width="18%" alt="Test Sonucu" />
-  <img src="screenshots/screenshot_11.png" width="18%" alt="Kelime Listesi" />
-  <img src="screenshots/screenshot_12.png" width="18%" alt="İstatistikler" />
+  <img src="screenshots/preview.png" width="100%" alt="DeHadi Ekran Görüntüleri" />
 </p>
 
 ---
@@ -84,28 +72,55 @@ flutter build ios --release
 
 ```
 lib/
-├── 📄 main.dart / uygulama.dart
+│
+├── 📄 main.dart                          # Uygulama giriş noktası
+├── 📄 uygulama.dart                      # Ana uygulama widget'ı ve route tanımları
 │
 ├── 🔧 cekirdek/
-│   ├── sabitler/         # Renk paleti
-│   ├── tema/             # ThemeData
-│   └── araclar/          # Hata yönetimi · Bildirim · Spaced Repetition
+│   ├── sabitler/
+│   │   └── uygulama_renkleri.dart        # Renk paleti (Fasih teması)
+│   ├── tema/
+│   │   └── uygulama_temasi.dart          # ThemeData tanımları
+│   └── araclar/
+│       ├── hata_yonetimi.dart            # Global hata yakalama
+│       ├── bildirim_yoneticisi.dart      # Bildirim yönetimi
+│       └── aralikli_tekrar.dart          # Spaced Repetition algoritması
 │
 ├── 🗄️ veri/
-│   ├── modeller/         # Kelime & ilerleme modelleri (Hive)
-│   ├── depolar/          # Veri erişim katmanı
-│   └── kelimeler/        # 997 kelimelik JSON
+│   ├── modeller/
+│   │   ├── kelime_modeli.dart            # Kelime veri modeli (Hive)
+│   │   └── kullanici_ilerlemesi.dart     # İlerleme & seri modeli (Hive)
+│   ├── depolar/
+│   │   └── kelime_deposu.dart            # Veri erişim katmanı (Singleton)
+│   └── kelimeler/
+│       └── kelime_verileri.dart          # 997 kelimelik JSON veri kaynağı
 │
-├── ⚙️ saglayicilar/      # Kelime · Test · Streak · Tema (Provider)
+├── ⚙️ saglayicilar/
+│   ├── kelime_saglayici.dart             # Kelime state yönetimi
+│   ├── test_saglayici.dart               # Test state yönetimi
+│   ├── seri_saglayici.dart               # Streak state yönetimi
+│   └── tema_saglayici.dart               # Tema state yönetimi
 │
-├── 🧩 bilesenler/        # Flip card · Navigasyon · Streak badge
+├── 🧩 bilesenler/
+│   ├── cevir_kart.dart                   # Flip card widget
+│   ├── gezinti_cubugu.dart               # Alt navigasyon çubuğu
+│   ├── seri_rozeti.dart                  # Streak badge widget
+│   └── ilerleme_gostergesi.dart          # İlerleme göstergeleri
 │
 └── 📱 ekranlar/
-    ├── acilis / giris / onboarding
-    ├── ana_sayfa / kartlar
-    ├── test/             # Çoktan seçmeli · Yazarak · Eşleştirme · Sonuç
-    ├── kelime_listesi
-    └── istatistik
+    ├── acilis/acilis_ekrani.dart         # Splash screen
+    ├── giris/giris_ekrani.dart           # Kullanıcı giriş ekranı
+    ├── onboarding/onboarding_ekrani.dart # Onboarding akışı
+    ├── ana_sayfa/ana_ekran.dart          # Dashboard & profil
+    ├── kartlar/kart_ekrani.dart          # Kelime kartları ekranı
+    ├── test/
+    │   ├── test_secim_ekrani.dart        # Test türü seçimi
+    │   ├── test_ekrani.dart              # Çoktan seçmeli test
+    │   ├── yazarak_test_ekrani.dart      # Yazarak cevaplama testi
+    │   ├── eslestirme_ekrani.dart        # Eşleştirme oyunu
+    │   └── test_sonuc_ekrani.dart        # Sonuç & özet ekranı
+    ├── kelime_listesi/kelime_listesi_ekrani.dart
+    └── istatistik/istatistik_ekrani.dart
 ```
 
 ---
