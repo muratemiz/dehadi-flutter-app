@@ -1,41 +1,101 @@
-# DeHadi - İngilizce Kelime Öğrenme Uygulaması
+<h1 align="center">
+  <br>
+  DeHadi — İngilizce Kelime Öğrenme Uygulaması
+  <br>
+</h1>
 
-Flutter ile geliştirilmiş, İngilizce kelime öğrenmeye yönelik mobil uygulama.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.10+-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-3.10+-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-lightgrey?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-Personal-green?style=for-the-badge" />
+</p>
 
-## Özellikler
+<p align="center">
+  Bilimsel aralıklı tekrar algoritması ile İngilizce kelime öğrenmeyi kalıcı ve eğlenceli hale getiren cross-platform mobil uygulama.
+</p>
 
-- **997 kelime** - A1, A2, B1, B2, C1, C2 seviyelerine göre sınıflandırılmış
-- **Günlük kelime kartları** - Her gün istediğin kadar kelime öğren (5-50 arası)
-- **3 farklı test türü** - Çoktan seçmeli, yazarak cevaplama (joker destekli), eşleştirme
-- **Adam asmaca tarzı** - Yazma testlerinde hangman stili harf gösterimi
-- **Aralıklı tekrar** - Spaced repetition algoritması ile kalıcı öğrenme
-- **Seri takibi** - Günlük streak ve motivasyon sistemi
-- **Kelime arama** - Tüm kelimeleri ara, filtrele ve detaylarını gör
-- **İstatistikler** - İlerleme, başarı rozetleri ve detaylı istatistikler
-- **Bildirimler** - Günlük hatırlatma bildirimleri
-- **Karanlık mod** - Göz dostu karanlık tema desteği
-- **Kullanıcı profili** - İsim girişi ve profil yönetimi
+---
 
-## Kurulum
+## 📸 Ekran Görüntüleri
 
-### Gereksinimler
+| Yükleme | Tanıtım | Giriş | Ana Ekran |
+|:-------:|:-------:|:-----:|:---------:|
+| ![Yükleme](screenshots/screenshot_1.png) | ![Tanıtım](screenshots/screenshot_2.png) | ![Giriş](screenshots/screenshot_3.png) | ![Ana Ekran](screenshots/screenshot_4.png) |
 
-- Flutter SDK (3.10+)
-- Dart SDK (3.10+)
-- Xcode (iOS için)
-- Android Studio / Android SDK (Android için)
+| Ana Ekran (Karanlık) | Kart — İngilizce | Kart — Türkçe | Kart — Karanlık |
+|:--------------------:|:----------------:|:-------------:|:---------------:|
+| ![Ana Karanlık](screenshots/screenshot_5.png) | ![Kart İng](screenshots/screenshot_6.png) | ![Kart Tr](screenshots/screenshot_7.png) | ![Kart Karanlık](screenshots/screenshot_8.png) |
 
-### Çalıştırma
+| Çoktan Seçmeli Test | Yazarak Test | Kelime Listesi | İstatistikler |
+|:-------------------:|:------------:|:--------------:|:-------------:|
+| ![Test](screenshots/screenshot_9.png) | ![Yazarak](screenshots/screenshot_10.png) | ![Kelimeler](screenshots/screenshot_11.png) | ![İstatistik](screenshots/screenshot_12.png) |
+
+---
+
+## ✨ Özellikler
+
+### 🧠 Akıllı Öğrenme Sistemi
+- **Aralıklı Tekrar (Spaced Repetition)** — Bilimsel algoritmaya dayalı tekrar sistemi; doğru bildiğin kelimeleri seyrek, yanlış bildiklerini sık göstererek kalıcı öğrenmeyi sağlar
+- **997 Kelime Hazinesi** — CEFR standartlarında A1'den C2'ye kadar sınıflandırılmış kapsamlı kelime veritabanı
+- **Günlük Dozaj Kontrolü** — Bilişsel yükü optimize etmek için günde 5–50 kelime arasında kişiselleştirilebilir çalışma miktarı
+
+### 🃏 Kelime Kartları
+- **Flip Card Arayüzü** — Ön yüzde İngilizce kelime, arka yüzde Türkçe karşılığı, İngilizce tanım ve örnek cümle
+- **Akıcı Animasyonlar** — Her kart geçişinde göz yormayan, modern animasyonlar
+
+### 🎯 Çoklu Test Modları
+- **Çoktan Seçmeli Test** — 4 seçenekli klasik quiz formatı
+- **Yazarak Cevaplama** — Hangman (adam asmaca) stiliyle harf harf tahmin; joker desteği mevcut
+- **Eşleştirme Oyunu** — Kelime-anlam çiftlerini drag & match yöntemiyle eşleştir
+
+### 📊 İlerleme & Motivasyon
+- **Seri Takibi (Streak)** — Günlük çalışma zincirinizi kırmadan devam etmenizi teşvik eden streak sistemi
+- **Detaylı İstatistikler** — Doğruluk oranı, öğrenilen kelime sayısı, seviye bazlı ilerleme grafikleri ve başarı rozetleri
+- **Kelime Kütüphanesi** — Tüm kelimeleri arayın, seviyeye göre filtreleyin, detaylarını inceleyin
+
+### 🎨 Kullanıcı Deneyimi
+- **Karanlık / Aydınlık Tema** — Göz dostu tam karanlık mod desteği
+- **Günlük Bildirimler** — "Günün kelimeleri hazır!" hatırlatıcıları ile düzenli çalışma alışkanlığı
+- **Kullanıcı Profili** — İsim girişi, seviye seçimi ve kişisel ilerleme yönetimi
+
+---
+
+## 🚀 Kurulum
+
+### Ön Gereksinimler
+
+| Araç | Minimum Versiyon |
+|------|-----------------|
+| Flutter SDK | 3.10+ |
+| Dart SDK | 3.10+ |
+| Xcode | 14+ *(iOS için)* |
+| Android Studio | Electric Eel+ *(Android için)* |
+
+### 1. Projeyi İndir
 
 ```bash
-# Bağımlılıkları yükle
+git clone https://github.com/muratemiz/dehadi-flutter-app.git
+cd dehadi-flutter-app
+```
+
+### 2. Bağımlılıkları Yükle
+
+```bash
 flutter pub get
+```
 
-# Hive model dosyalarını oluştur
+### 3. Kod Üretimini Çalıştır
+
+```bash
 dart run build_runner build
+```
 
-# iOS için çalıştır
-flutter run -d <ios_device_id>
+### 4. Uygulamayı Başlat
+
+```bash
+# Bağlı cihazda çalıştır (Android veya iOS)
+flutter run
 
 # Android APK oluştur
 flutter build apk --release
@@ -44,63 +104,79 @@ flutter build apk --release
 flutter build ios --release
 ```
 
-## Proje Yapısı
+---
+
+## 🗂️ Proje Yapısı
 
 ```
 lib/
-├── main.dart                          # Uygulama giriş noktası
-├── uygulama.dart                      # Ana uygulama widget'ı ve route tanımları
-├── cekirdek/
+│
+├── 📄 main.dart                          # Uygulama giriş noktası
+├── 📄 uygulama.dart                      # Ana widget & route tanımları
+│
+├── 🔧 cekirdek/
 │   ├── sabitler/
-│   │   └── uygulama_renkleri.dart     # Renk paleti (Fasih teması)
+│   │   └── uygulama_renkleri.dart        # Renk paleti
 │   ├── tema/
-│   │   └── uygulama_temasi.dart       # ThemeData tanımları
+│   │   └── uygulama_temasi.dart          # ThemeData tanımları
 │   └── araclar/
-│       ├── hata_yonetimi.dart         # Global hata yakalama
-│       ├── bildirim_yoneticisi.dart   # Bildirim yönetimi
-│       └── aralikli_tekrar.dart       # Spaced repetition algoritması
-├── veri/
+│       ├── hata_yonetimi.dart            # Global hata yakalama
+│       ├── bildirim_yoneticisi.dart      # Bildirim yönetimi
+│       └── aralikli_tekrar.dart          # Spaced Repetition algoritması
+│
+├── 🗄️ veri/
 │   ├── modeller/
-│   │   ├── kelime_modeli.dart         # Kelime veri modeli (Hive)
-│   │   └── kullanici_ilerlemesi.dart  # İlerleme & seri modeli (Hive)
-│   └── depolar/
-│       └── kelime_deposu.dart         # Veri erişim katmanı (Singleton)
-├── saglayicilar/
-│   ├── kelime_saglayici.dart          # Kelime state yönetimi
-│   ├── test_saglayici.dart            # Test state yönetimi
-│   ├── seri_saglayici.dart            # Streak state yönetimi
-│   └── tema_saglayici.dart            # Tema state yönetimi
-├── bilesenler/
-│   ├── buzlu_bilesenler.dart          # Ortak UI bileşenleri
-│   ├── gezinti_cubugu.dart            # Alt navigasyon çubuğu
-│   ├── cevir_kart.dart                # Flip card widget
-│   ├── seri_rozeti.dart               # Streak badge widget
-│   └── ilerleme_gostergesi.dart       # İlerleme göstergeleri
-└── ekranlar/
-    ├── acilis/acilis_ekrani.dart      # Splash screen
-    ├── giris/giris_ekrani.dart        # Kullanıcı giriş ekranı
-    ├── onboarding/onboarding_ekrani.dart
-    ├── ana_sayfa/ana_ekran.dart       # Ana ekran + profil/ayarlar
-    ├── kartlar/kart_ekrani.dart       # Kelime kartları
+│   │   ├── kelime_modeli.dart            # Kelime veri modeli (Hive)
+│   │   └── kullanici_ilerlemesi.dart     # İlerleme & seri modeli (Hive)
+│   ├── depolar/
+│   │   └── kelime_deposu.dart            # Veri erişim katmanı (Singleton)
+│   └── kelimeler/
+│       └── kelime_verileri.dart          # 997 kelimelik JSON veri kaynağı
+│
+├── ⚙️ saglayicilar/
+│   ├── kelime_saglayici.dart             # Kelime state yönetimi
+│   ├── test_saglayici.dart               # Test state yönetimi
+│   ├── seri_saglayici.dart               # Streak state yönetimi
+│   └── tema_saglayici.dart              # Tema state yönetimi
+│
+├── 🧩 bilesenler/
+│   ├── cevir_kart.dart                   # Flip card widget
+│   ├── gezinti_cubugu.dart               # Alt navigasyon çubuğu
+│   ├── seri_rozeti.dart                  # Streak badge widget
+│   └── ilerleme_gostergesi.dart          # İlerleme göstergeleri
+│
+└── 📱 ekranlar/
+    ├── acilis/                           # Splash screen
+    ├── giris/                            # Kullanıcı giriş ekranı
+    ├── onboarding/                       # Onboarding akışı
+    ├── ana_sayfa/                        # Dashboard & profil
+    ├── kartlar/                          # Kelime kartları ekranı
     ├── test/
-    │   ├── test_secim_ekrani.dart     # Test türü seçimi
-    │   ├── test_ekrani.dart           # Çoktan seçmeli test
-    │   ├── yazarak_test_ekrani.dart   # Yazarak cevaplama testi
-    │   ├── eslestirme_ekrani.dart     # Eşleştirme oyunu
-    │   └── test_sonuc_ekrani.dart     # Sonuç ekranı
-    ├── kelime_listesi/kelime_listesi_ekrani.dart
-    └── istatistik/istatistik_ekrani.dart
+    │   ├── test_secim_ekrani.dart        # Test türü seçimi
+    │   ├── test_ekrani.dart              # Çoktan seçmeli
+    │   ├── yazarak_test_ekrani.dart      # Yazarak cevaplama
+    │   ├── eslestirme_ekrani.dart        # Eşleştirme oyunu
+    │   └── test_sonuc_ekrani.dart        # Sonuç & özet
+    ├── kelime_listesi/                   # Kelime kütüphanesi
+    └── istatistik/                       # İstatistik & rozetler
 ```
 
-## Teknolojiler
+---
 
-- **Flutter** - Cross-platform UI framework
-- **Hive** - Yerel NoSQL veritabanı
-- **Provider** - State management
-- **flutter_animate** - Animasyon kütüphanesi
-- **Google Fonts** - Tipografi
-- **flutter_local_notifications** - Bildirimler
+## 🛠️ Kullanılan Teknolojiler
 
-## Lisans
+| Paket | Kullanım Amacı |
+|-------|----------------|
+| [provider](https://pub.dev/packages/provider) | State management |
+| [hive](https://pub.dev/packages/hive) + [hive_flutter](https://pub.dev/packages/hive_flutter) | Yerel NoSQL veritabanı |
+| [flutter_animate](https://pub.dev/packages/flutter_animate) | Akıcı animasyonlar |
+| [flip_card](https://pub.dev/packages/flip_card) | Kelime kartı çevirme efekti |
+| [google_fonts](https://pub.dev/packages/google_fonts) | Tipografi |
+| [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications) | Günlük hatırlatma bildirimleri |
+| [percent_indicator](https://pub.dev/packages/percent_indicator) | İlerleme göstergeleri |
 
-Bu proje kişisel kullanım amaçlıdır.
+---
+
+## 📄 Lisans
+
+Bu proje kişisel kullanım amaçlıdır. © 2026 DeHadi
