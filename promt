@@ -1,0 +1,41 @@
+1. Uygulama Planlaması (Mimari)
+Uygulamanın sadece "kelime-anlam" listesi olmasından ziyade, akılda kalıcılığı artıran şu özellikleri içermesini öneririm:
+
+Günlük Dozaj: Her gün kullanıcıya 5-10 arası yeni kelime sunulur (bilişsel yükü azaltmak için).
+
+Öğrenme Metodu (Spaced Repetition): Kelimeler belirli aralıklarla (1 gün, 3 gün, 1 hafta) tekrar sorulur.
+
+Etkileşimli İçerik: Her kelime için telaffuz, örnek cümle, görsel betimleme ve eş anlamlılar.
+
+Gamification (Oyunlaştırma): Günlük seri (streak) takibi ve puan sistemi.
+
+Kişiselleştirme: Kullanıcının seviyesine (A1-C2) veya ilgi alanına (Yazılım, İş İngilizcesi vb.) göre kelime seçimi.
+
+2. Master Prompt (AI için Talimat)
+Aşağıdaki prompt'u Flutter, React Native veya tercih ettiğin herhangi bir dilde kod yazması için bir yapay zekaya (Cursor, ChatGPT vb.) verebilirsin. Bu prompt, projenin tüm mantığını kapsar:
+
+PROMPT: "Bir mobil uygulama geliştiricisi gibi davranarak bana [Flutter/React Native] ile bir 'Günlük Kelime Ezberleme Uygulaması' geliştirmeni istiyorum. Uygulamanın adı 'LexiDaily' olacak. Lütfen aşağıdaki teknik detayları ve özellikleri içeren profesyonel bir başlangıç yapısı oluştur:
+
+1. Temel İşlevsellik:
+
+Daily Dashboard: Kullanıcı her gün uygulamayı açtığında yeni 5 kelime ile karşılaşmalı.
+
+Word Cards: Kelime kartları 'flip card' (çevrilebilir) yapısında olmalı. Ön yüzde kelime, arka yüzde ise Türkçe karşılığı, İngilizce tanımı ve bir örnek cümle yer almalı.
+
+Test Modu: Öğrenilen kelimeler için çoktan seçmeli veya 'boşluk doldurma' şeklinde mini testler olmalı.
+
+2. Teknik Gereksinimler:
+
+State Management: Verilerin yönetimi için [Provider/Riverpod/Redux] kullan.
+
+Local Storage: Kullanıcının öğrendiği kelimeleri ve günlük serisini (streak) kaydetmek için [SQLite/Hive/Shared Preferences] entegre et.
+
+UI/UX: Minimalist, modern ve göz yormayan bir tasarım (Pastel tonlar, geniş boşluklar) kullan. Dark Mode desteği ekle.
+
+3. Akıllı Özellikler:
+
+Spaced Repetition: Kullanıcının yanlış bildiği kelimeleri daha sık, doğru bildiklerini daha nadir gösteren basit bir algoritma kur.
+
+Bildirimler: Her sabah kullanıcıya 'Günün kelimeleri hazır!' şeklinde bir hatırlatıcı gönder.
+
+4. Çıktı Beklentisi: İlk aşamada uygulamanın temel klasör yapısını, gerekli paketlerin listesini ve kelime kartlarının listelendiği ana sayfanın (Home Screen) kodlarını detaylı ve yorum satırları eklenmiş şekilde ver."
