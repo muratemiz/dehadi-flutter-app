@@ -19,17 +19,21 @@
 
 ## 📸 Ekran Görüntüleri
 
-| Test Sonucu | Tanıtım | Giriş | Ana Ekran |
-|:-----------:|:-------:|:-----:|:---------:|
-| ![Test Sonucu](screenshots/screenshot_13.png) | ![Tanıtım](screenshots/screenshot_2.png) | ![Giriş](screenshots/screenshot_3.png) | ![Ana Ekran](screenshots/screenshot_4.png) |
+<p align="center">
+  <img src="screenshots/screenshot_3.png"  width="18.5%" alt="Giriş" />
+  <img src="screenshots/screenshot_2.png"  width="18.5%" alt="Tanıtım" />
+  <img src="screenshots/screenshot_4.png"  width="18.5%" alt="Ana Ekran" />
+  <img src="screenshots/screenshot_6.png"  width="18.5%" alt="Kart — İngilizce" />
+  <img src="screenshots/screenshot_7.png"  width="18.5%" alt="Kart — Türkçe" />
+</p>
 
-| Ana Ekran (Karanlık) | Kart — İngilizce | Kart — Türkçe | Kart — Karanlık |
-|:--------------------:|:----------------:|:-------------:|:---------------:|
-| ![Ana Karanlık](screenshots/screenshot_5.png) | ![Kart İng](screenshots/screenshot_6.png) | ![Kart Tr](screenshots/screenshot_7.png) | ![Kart Karanlık](screenshots/screenshot_8.png) |
-
-| Çoktan Seçmeli Test | Yazarak Test | Kelime Listesi | İstatistikler |
-|:-------------------:|:------------:|:--------------:|:-------------:|
-| ![Test](screenshots/screenshot_9.png) | ![Yazarak](screenshots/screenshot_10.png) | ![Kelimeler](screenshots/screenshot_11.png) | ![İstatistik](screenshots/screenshot_12.png) |
+<p align="center">
+  <img src="screenshots/screenshot_9.png"  width="18.5%" alt="Çoktan Seçmeli" />
+  <img src="screenshots/screenshot_10.png" width="18.5%" alt="Yazarak Test" />
+  <img src="screenshots/screenshot_13.png" width="18.5%" alt="Test Sonucu" />
+  <img src="screenshots/screenshot_11.png" width="18.5%" alt="Kelime Listesi" />
+  <img src="screenshots/screenshot_12.png" width="18.5%" alt="İstatistikler" />
+</p>
 
 ---
 
